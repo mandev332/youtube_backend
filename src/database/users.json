@@ -1,0 +1,52 @@
+[
+    {
+        "userId": 1,
+        "password": "a70f50201ca59e2bfee8bc19c6d4c165348cfd7d672474d39d0201483b61fc55",
+        "username": "nodir"
+    },
+    {
+        "userId": 2,
+        "password": "d74350e290b4c92b79d1c51f2f1f37c77b2483388cd180aa0cd38b8d8cedaa18",
+        "username": "donishmand"
+    },
+    {
+        "userId": 3,
+        "password": "9379e6ebad5f88e81aae1800d06e82703100c4c0f39dc4eb4fc25c8da51c78d5",
+        "username": "mandev"
+    },
+    {
+        "userId": 4,
+        "password": "57f34a30686ca8a92ad32d0aa4f3c1545f646e6e112081f31e283f4b03c50cc1",
+        "username": "mana"
+    },
+    {
+        "userId": 5,
+        "password": "61094056b34c92415f018f1dbb1c62995e7cd74d05c3668b795609f4f1a1cea6",
+        "username": "Mandev"
+    },
+    {
+        "userId": 6,
+        "password": "749a35775992b34e349a5e010ace886c43ee214b4a071972f60156a8b021e4a8",
+        "username": "Javohir"
+    },
+    {
+        "userId": 7,
+        "password": "680d5e23fed0748684da6b568129e536a258bc756135f3b237ebeb34977a1f37",
+        "username": "Nodir"
+    },
+    {
+        "userId": 8,
+        "password": "1fb07355540f210f24bde65925f77448c235dd9267412383dc5086d6f6d32e6d",
+        "username": "manas"
+    },
+    {
+        "userId": 9,
+        "password": "285d6e627cabfe972acbcc990e03b8113d9f2e2690b2721b919adc32e60dacb7",
+        "username": "manas1"
+    },
+    {
+        "userId": 10,
+        "password": "b24581545afbbccff4fa49f7762a934fa4fba3783fd588a59147b49bf1e3534a",
+        "username": "manas12"
+    }
+]
