@@ -7,7 +7,14 @@ const app = express();
 
 app.use("/videos/", express.static(path.join(__dirname, "videos")));
 app.use("/files/", express.static(path.join(__dirname, "files")));
-app.use(cors("http://localhost:7000"));
+app.use(
+    cors({
+        origin: "*",
+        methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+        preflightContinue: false,
+        optionsSuccessStatus: 204,
+    })
+);
 app.use("/getFile", express.static(path.join(__dirname, "files")));
 app.use(fileUpload());
 
