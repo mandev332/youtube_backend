@@ -33,11 +33,12 @@ app.get("/download/:fileLink", (req, res) => {
     res.download(path.join(__dirname, "videos", req.params.fileLink));
 });
 
+app.use(authTokenMiddleware);
 app.use("/auth", authRouter);
 app.use("/files2", userimgRouter);
 app.use("/images", imageRouter);
 app.use("/users", userRouter);
-// app.use(authTokenMiddleware);
+
 
 app.post("/upload", async (req, res) => {
     const { image } = req.files;
